@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* My Resets */
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Container */
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+/* Flex */
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.item-center{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+/* Columns */
+.flex-48{
+    flex: 0 1 48%;
+}
+.flex-30{
+    flex: 0 1 30%;
+}
+.width-full{
+    width: 100%;
+}
+.padding{
+    padding: 4rem 0;
+}
+
+/* Header */
+
+.header{
+    background-color: #222946;
+    padding: 1.2rem 0;
+}
+.nav li{
+    margin-left:3.2rem;
+}
+.nav a{
+    font-size: 1.6rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.nav .active{
+    color: #4CA963;
+}
+
+/* Article */
+
+.article{
+    background-color: #E9ECFC;
+}
+.heading{
+    font-size:3.6rem;
+    color: #181B27;
+    font-weight: 600;
+}
+.text{
+    font-size: 1.7rem;
+    color: #A0A1A8;
+    margin: .8rem 0;
+}
+.btn{
+    padding: 1.2rem 3.2rem;
+    background-color: #4CA963;
+    color: #dddddd;
+    display: inline-block;
+    margin-top: 1.6rem;
+    border-radius: .4rem;
+    text-transform: capitalize;
+}
+
+/* Our Blog */
+
+h2{
+    font-size: 3.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 2.4rem 0;
+}
+h3{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+p{
+    color: #A0A1A8;
+}
+.btn-blog{
+    padding: .8rem 2.6rem;
+    background-color: #4CA963;
+    color: #dddddd;
+    display: inline-block;
+    margin-top: 1.6rem;
+    border-radius: .4rem;
+    text-transform: capitalize;
+}
+img{
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #222946;
+    font-size: 2rem;
+    color: #A0A1A8;
+    padding: 2.8rem 0;
+}
+.footer-nav li{
+    margin-left: 2rem;
+}
+.footer-nav a{
+    color: #A0A1A8;
+}
+
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 55%;
+    }
+    .container{
+        padding: 0 2rem;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .flex-48, .flex-30 {
+        flex: 1 1 100%;
+        margin: 2.4rem 0;
+    }
+    .column{
+        flex-direction: column;
+    }
+    .logo-container{
+        flex: 0 1 100%;
+    }
+    .navigation-menus{
+        flex-direction: row;
+        flex: 0 1 100%;
+    }    
+    .primary-navigation{
+        margin: 1rem 0;
+    }
+    .padding{
+        padding: 1.4rem;
+    }
+    #hero-section{
+        flex-direction: column-reverse;
+    }
+    .footer-item{
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    .footer-navigation{
+        flex: 1 1 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    .footer-nav{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    html{
+        font-size: 50%;
+    }
+    .container{
+        padding: 0 1.4rem;
+    } 
+} 
