@@ -17,46 +17,48 @@
 </head>
 <body>
     <header class="header"> 
-       <div class="container">
-          <nav class="flex justify-between item-center">
-              <a class="brand" href="#">
-                  <h2>Alt Events</h2>
-              </a>
-              <label class="bars" for="toogle">
-                  <i class="fas fa-bars"></i>
-              </label>
-              <input id="toogle" type="checkbox">
-              <ul class="flex nav-menu item-center column">
-                  <li class="nav-item">
-                      <a href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Service</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Contact</a>
-                </li>
-                <a class="nav-item btn" href="#">Join us</a>
-              </ul>
-          </nav>
-       </div>
+        <div class="container flex justify-between item-center">
+            <a class="brand" href="index.html">
+                <h2>AltEvents</h2>
+            </a>
+            <label class="bars" for="toogle">
+                <i class="fas fa-bars"></i>
+            </label>
+            <input id="toogle" type="checkbox">
+            <nav class="nav">
+                <ul class="flex item-center nav-menu sm-column">
+                    <li class="nav-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn" href="#">Join Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
     <!-- Hero -->
 
     <section class="hero">
-        <div class="container flex justify-between item-center column hero-content">
-            <article class="flex-60 article-content">
+        <div class="container flex justify-between item-center sm-wrap">
+            <article class="flex-60 sm-flex-100 order-1 hero-content">
                 <h1>Web Developer <br> Conference <strong>2020</strong></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae a dolor ab deserunt quisquam molestias earum sint ratione repudiandae, hic beatae culpa fuga sequi.
                 </p>
                 <a class="btn" href="#">Register now</a>
             </article>
-            <figure class="flex-30 article-fig">
-                <img class="width-full" src="assets/media/hero.png" alt="girl with mic">
+            <figure class="flex-30 sm-flex-100 hero-content">
+                <img class="width-full sm-width-full" src="assets/media/hero.png" alt="girl with mic">
             </figure>
         </div>
     </section>
@@ -64,11 +66,11 @@
 
 <!-- Secondary-section starts here -->
 <section class="padding Secondary-section">
-    <div class="container flex justify-between item-center column event">
-        <figure class="flex-47 event-img">
+    <div class="container flex justify-between item-center sm-wrap">
+        <figure class="flex-47 sm-flex-100">
             <img src="assets/media/about.png" alt="people">
         </figure>
-        <article class="flex-47 event-txt">
+        <article class="flex-47 sm-flex-100">
             <h3>About the event</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, illo animi doloremque voluptas ipsam quis neque totam molestias deleniti. Impedit facere dolore quia sunt vero debitis tenetur doloribus corrupti totam?</p>
             <a class="btn" href="#">Know more</a>
@@ -81,18 +83,18 @@
 <section class="about-section padding">
     <div class="container">
     <h3 class="text-center">Why you should join</h3>
-    <div class="flex justify-between item-center column">
-        <article class="flex-32 border">
+    <div class="flex justify-between item-center sm-wrap">
+        <article class="flex-32 border sm-flex-100">
             <div class="one">1</div>
             <h4>Network</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia rerum magnam dolor repellendus beatae? Excepturi quisquam</p>
         </article>
-        <article class="flex-32 border">
+        <article class="flex-32 border sm-flex-100">
             <div class="one">2</div>
             <h4>Great Speakers</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia rerum magnam dolor repellendus beatae? Excepturi quisquam</p>
         </article>
-        <article class="flex-32 border">
+        <article class="flex-32 border sm-flex-100">
             <div class="one">3</div>
             <h4>Information</h4>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia rerum magnam dolor repellendus beatae? Excepturi quisquam</p>
@@ -110,50 +112,50 @@
         <div>
             <span class="line"></span>
         </div>
-        <div class="flex justify-between item-center Schedule column">
-            <div class="flex-10 date margin">
+        <div class="flex justify-between item-center Schedule sm-wrap">
+            <div class="flex-10 date sm-text-center">
                 <strong>06 <br> Sept</strong>
             </div>
-            <figure class="flex-22">
+            <figure class="flex-22 sm-flex-100">
                 <img class="width-full" src="assets/media/schedule-01.jpg" alt="schedule-01">
             </figure>
-            <div class="flex-60">
+            <div class="flex-60 sm-flex-100">
                 <h4>Digital world Event Conversation</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam illo nesciunt repellendus. Corrupti eius perferendis.</p>
             </div>
         </div>
-        <div class="flex justify-between item-center Schedule column">
+        <div class="flex justify-between item-center Schedule sm-wrap">
             <div class="flex-10 date dashed margin">
                 <strong>07 <br> Sept</strong>
             </div>
-            <figure class="flex-22">
+            <figure class="flex-22 sm-flex-100">
                 <img class="width-full" src="assets/media/schedule-02.jpg" alt="schedule-01">
             </figure>
-            <div class="flex-60">
+            <div class="flex-60 sm-flex-100">
                 <h4>Web designing Conversation</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam illo nesciunt repellendus. Corrupti eius perferendis.</p>
             </div>
         </div>
-        <div class="flex justify-between item-center Schedule column">
+        <div class="flex justify-between item-center Schedule sm-wrap">
             <div class="flex-10 date dashed margin">
                 <strong>08 <br> Sept</strong>
             </div>
-            <figure class="flex-22">
+            <figure class="flex-22 sm-flex-100">
                 <img class="width-full" src="assets/media/schedule-03.jpg" alt="schedule-01">
             </figure>
-            <div class="flex-60">
+            <div class="flex-60 sm-flex-100">
                 <h4>Web development Conversation</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam illo nesciunt repellendus. Corrupti eius perferendis.</p>
             </div>
         </div>
-        <div class="flex justify-between item-center Schedule column">
+        <div class="flex justify-between item-center Schedule sm-wrap">
             <div class="flex-10 date dashed margin">
                 <strong>09 <br> Sept</strong>
             </div>
-            <figure class="flex-22">
+            <figure class="flex-22 sm-flex-100">
                 <img class="width-full" src="assets/media/schedule-04.jpg" alt="schedule-01">
             </figure>
-            <div class="flex-60">
+            <div class="flex-60 sm-flex-100>
                 <h4>Digital market Conference</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam illo nesciunt repellendus. Corrupti eius perferendis.</p>
             </div>
@@ -167,29 +169,29 @@
 
 <!-- Section-five starts here -->
 <section class="padding section-five">
-    <div class="container flex justify-between item-center column">
-            <div class="text-center margin">
+    <div class="container flex justify-between item-center sm-wrap">
+            <div class="text-center sm-flex-100 sm-flex justify-between sm-item-center">
                 <figure>
                     <img src="assets/media/speaker.png" alt="speaker icon">
                 </figure>
                 <strong class="icon">20+</strong> <br>
                 <strong>Great Speakers</strong>
             </div>
-            <div class="total-topic margin">
+            <div class="total-topic sm-flex-100 sm-flex justify-between sm-item-center">
                 <figure>
                     <img src="assets/media/idea.png" alt="speaker icon">
                 </figure>
                 <strong class="icon">50+</strong> <br>
                 <strong>Total Topic</strong>
             </div>
-            <div class="text-center margin">
+            <div class="text-center sm-flex-100 sm-flex justify-between sm-item-center">
                 <figure>
                     <img src="assets/media/participants.png" alt="speaker icon">
                 </figure>
                 <strong class="icon">300+</strong> <br>
                 <strong>Participants</strong>
             </div>
-            <div class="text-center margin">
+            <div class="text-center sm-flex-100 sm-flex justify-between sm-item-center">
                 <figure>
                     <img src="assets/media/sponsor.png" alt="speaker icon">
                 </figure>
@@ -203,10 +205,10 @@
 <!-- Section-six starts here -->
 <section class="section-six padding">
     <div class="container">
-        <figure class="section-six-img">
+        <figure class="section-six-img sm-flex-100">
             <img class="width-full img-width" src="assets/media/banner.png" alt="banner-img">
         </figure>
-        <div class="circle flex-100">
+        <div class="circle">
             <i class="fas fa-play"></i>
         </div>
     </div>
@@ -217,8 +219,8 @@
 <!-- News Section starts here -->
 <section class="padding news-section">
     <h3 class="text-center">Our latest news</h3>
-    <div class="container flex justify-between item-center column">
-        <article class="flex-30 news-article full-width margin">
+    <div class="container flex justify-between item-center sm-wrap">
+        <article class="flex-30 news-article sm-flex-100">
             <figure>
                 <img class="width-full" src="assets/media/news-01.png" alt="">
             </figure>
@@ -226,7 +228,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic culpa excepturi exercitationem, commodi libero, veniam quidem unde facere quos.</p>
             <a href="#">Read More</a>
         </article>
-        <article class="flex-30 news-article full-width margin">
+        <article class="flex-30 news-article sm-flex-100">
             <figure>
                 <img class="width-full" src="assets/media/news-02.png" alt="">
             </figure>
@@ -234,7 +236,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic culpa excepturi exercitationem, commodi libero, veniam quidem unde facere quos.</p>
             <a class="active" href="#">Read More</a>
         </article>
-        <article class="flex-30 news-article full-width margin">
+        <article class="flex-30 news-article sm-flex-100">
             <figure>
                 <img class="width-full" src="assets/media/news-03.png" alt="">
             </figure>
@@ -244,43 +246,48 @@
         </article>
     </div>
 </section>
-<!-- News Section ends here  -->
-
-<!-- Cotact section starts here -->
-<section class="padding contact width-50">
-    <div class="container flex justify-between item-center column">
-        <figure>
+<!-- News Section ends here  -->       
+</main>
+<footer class="footer">
+<div class="padding">
+    <div class="container flex justify-between item-center sm-wrap">
+        <div class="flex-20 sm-flex-100 sm-text-center">
             <img src="assets/media/footer-logo.png" alt="logo">
-        </figure>
-        <nav class="responsive-nav">
-            <h5>Quick Links</h5>
-            <ul class="flex justify-between item-center contact-item column margin">
-                <li><a href="#">Program</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Services</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <h5>Follow Us</h5>
-            <ul class="flex justify-between item-center contact-item column margin">
-                <li>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</section>
+        </div>
+        <div class="flex-40 sm-flex-100 sm-text-center">
+            <h4>Quick Links</h4>
+            <nav>
+                <ul class="flex sm-justify-center">
+                    <li>
+                        <a href="#">Program</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="flex-30 sm-flex-100 sm-text-center">
+            <h4>Follow Us</h4>
+            <a href="#"></a>
+            <i class="fab fa-facebook-square"></i>
+            <a href="#"></a>
+            <i class="fab fa-twitter-square"></i>
+        </div>
 
-<!-- Footer -->
-<footer class="text-center footer">
+    </div>
+    </div>
+</div>
+<div class="text-center small">
     <small>
-        &copy; AltCampus Services Pvt. Ltd, 2018-present.
+        &copy; AltCampus Services Pvt Ltd, 2018 Present
     </small>
 </footer>
-</main>
 </body>
 </html> 
